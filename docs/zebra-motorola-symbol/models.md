@@ -26,4 +26,34 @@ So the `DS9808-SR00007C1WR` breaks down as:
 * `-SR` model feature
 * `00007C1WR` hardware configuration
 
+### Scanner Engines
+
+The first two letters gives some indication as to the type of imaging the device can do, to an extent. It can also reference general mounting hardware or other physical form factor.
+
+| Code | Note                                                        | Example |
+| ---- | ----------------------------------------------------------- | ------- |
+| LS   | Liner Scanner, 1D scanning only usually.                    | LS2208  |
+| DS   | Dual Scanner, 1D and 2D scanning                            | DS9808  |
+| MT   | Mobile Terminal, with a keyboard and lightweight OS usually |         |
+| MC   | Mobile Computer, with an OS like Windows Mobile or Andrdoid |         |
+| P    | Pad? Has a numeric pad for additional input                 |         |
+
+### Model Feature
+
+The first two letters after the hyphen describe the capabilities of the scanner. This can include things like a longer range lens for scanning at a distance, better sealing for regular disinfecting in healthcare, or different software or compute features for processing barcode data.
+
+| Code | Note                                                                                        | Example   |
+| ---- | ------------------------------------------------------------------------------------------- | --------- |
+| SR   | Standard Range, usually within a foot or so. Very common.                                   | DS3578-SR |
+| LR   | Long range, optics able to scan further out, usually at the cost of a higher minimum range. | DS9808-LR |
+| R    | RFID readers                                                                                | DS9808-R  |
+| HD   | High Density, for scanning smaller 2D codes. Less common after advances in tech.            | DS3578-HD |
+| HC   | Healthcare, ruggedized for regular cleaning in healthcare. Usually white in color.          | DS6878-HC |
+| ER   | Extended Range, like upwards of 45 feet. Usually 1D only and expensive.                     | LS3578-ER |
+| FZ   | Fuzzy Logic onboard processor to improve scan success rate. Eventually became standard.     | LS3408-FZ |
+| DC   | Document Capture, with a camera for capturing checks or other documents. Rolled into DS.    | DS6707-DC |
+| DP   | Direct Part capture, for barcodes laser engraved onto car parts and the like.               | DS6707-DP |
+| DL   | Driver's License, onboard decoding of AAMVA format PDF417 barcodes.                         | DS9808-DL |
+| SF   | Smart Focus, for reading short and long distances at weird angles. Rolled into DS models    | DS3408-SF |
+| I    | Introductory, cheaper low-end models with basic feature set. No longer used.                |           |
 
