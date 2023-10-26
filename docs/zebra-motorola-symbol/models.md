@@ -35,7 +35,7 @@ The first two letters gives some indication as to the type of imaging the device
 | LS   | Liner Scanner, 1D scanning only usually.                    | LS2208  |
 | DS   | Dual Scanner, 1D and 2D scanning                            | DS9808  |
 | MT   | Mobile Terminal, with a keyboard and lightweight OS usually |         |
-| MC   | Mobile Computer, with an OS like Windows Mobile or Andrdoid |         |
+| MC   | Mobile Computer, with an OS like Windows Mobile or Android  |         |
 | P    | Pad? Has a numeric pad for additional input                 |         |
 
 ### Model Feature
@@ -56,4 +56,3 @@ The first two letters after the hyphen describe the capabilities of the scanner.
 | DL   | Driver's License, onboard decoding of AAMVA format PDF417 barcodes.                         | DS9808-DL |
 | SF   | Smart Focus, for reading short and long distances at weird angles. Rolled into DS models    | DS3408-SF |
 | I    | Introductory, cheaper low-end models with basic feature set. No longer used.                |           |
-
